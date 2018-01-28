@@ -16,4 +16,4 @@ EXPOSE 3000
 
 VOLUME ["/data"]
 
-CMD bundle exec gollum --port 3000 /data
+CMD bundle exec unicorn --listen 0.0.0.0:3000
