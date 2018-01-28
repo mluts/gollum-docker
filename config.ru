@@ -3,8 +3,9 @@ require 'gollum/app'
 
 gollum_path = "/data"
 wiki_options = {
-  universal_toc: false,
-  allow_uploads: true
+  universal_toc: true,
+  allow_uploads: true,
+  live_preview: false
 }
 Precious::App.set(:gollum_path, gollum_path)
 Precious::App.set(:default_markup, :markdown) # set your favorite markup language
