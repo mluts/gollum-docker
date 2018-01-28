@@ -4,7 +4,7 @@ require 'gollum/app'
 gollum_path = "/data"
 wiki_options = {
   universal_toc: true,
-  allow_uploads: true,
+  allow_uploads: false,
   live_preview: false
 }
 Precious::App.set(:gollum_path, gollum_path)
